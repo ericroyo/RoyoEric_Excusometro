@@ -1,49 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Isometra&display=swap');
-;
-body {margin: 0;
-    background-color: lightgray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #222;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background-color: #efe5ba;
+    color: #3e212f;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5e2a2a;
+    color: #beb58d;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+header p {
+    color: #a4c268;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 h1 {
-    color: rgb(20, 113, 220);
-    font-size: 3em;
+    color: #d9abab;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
-h2{
-    font-size: 1.5rem;
-}
-
-p{
-    line-height: 1.5;
-}
-
-header p{
-    font-size: 1.1rem;
-}
-
-header{
-    padding: 40px;
+nav{
+    background-color: #c6d68a;
     text-align: center;
-    background-color: #0c2345;
-    color: rgb(50, 50, 149);
+    padding: 16px;
 }
 
-main{
-    padding: 30px;
+nav a{
+    color: #291642;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 12px;
+}
 
-    padding: 30px;
+nav a:hover{
+    color: rgb(106, 25, 41);
+}
+
+main {
+    max-width: 1000px;
     margin: auto;
+    padding: 40px 30px;
 }
 
-section{
-    background-color: rgb(79, 126, 81);
-    padding: 20px;
-    margin-bottom: 20px;
+section {
+    background-color: #e3e1e1;
+    margin-bottom: 24px;
+    padding: 30px;
 }
 
-footer{
-    padding: 20px;
+h2 {
+    color: #a53939;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.excusa{
+    background-color: #dddcdc;
+    padding: 30px;
+    margin-bottom: 24px;
+}
+
+.excusa h3{
+    color: #b00020;
+    margin-top: 0;
+}
+
+#estado{
+    background-color: #253d2a;
+    color: ghostwhite;
+}
+
+#estado h2{
+    color: ghostwhite;
+}
+
+ul {
+    line-height: 1.9;
+}
+
+ol {
+    line-height: 1.9;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #788743;
+    color: #7d5454;
     text-align: center;
+    padding: 24px;
+}
+
+footer p {
+    font-weight: 700;
+    margin: 16px;
 }
