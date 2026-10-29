@@ -113,3 +113,23 @@ footer p {
     font-weight: 700;
     margin: 16px;
 }
+.evidencias img {
+    width: 100%;
+}
+.evidencias img {
+    background-color: #b00020;
+    padding: 1em;
+    margin: 1.5em 0;
+    border-width: 0.15em;
+    border-style: solid;
+    border-color: #7d5454;
+}
+.evidencias img {
+    max-width: 100%;
+    display: block;
+}
+.evidencias figcaption{
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    font-weight: 700;
+}
