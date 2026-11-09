@@ -168,3 +168,36 @@ footer p {
     color: antiquewhite;
     padding: 0.3em 0.6em;
 }
+
+.cabecera-expediente
+    .sello-clasificado{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: #a4c268;
+    color: aquamarine;
+    padding: 0.4em 0.7em;
+    border: 0.15em solid ghostwhite;
+    font-weight: 700;
+    }
+.aviso-sistema{
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    background-color: #3e212f;
+    color: aliceblue;
+    padding: 0.6em 1em;
+    border: 0.1em solid ghostwhite;
+}
+
+.foto-caso{
+    width: 12em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    border: 0.15em solid #d9abab;
+}
+
+.error{
+    overflow:auto;
+}
