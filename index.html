@@ -23,6 +23,7 @@
         <a href="#que-hacemos">Qué hacemos?</a>
         <a href="#archivo">Archivo</a>
         <a href="#protocolo">Protocolo</a>
+        <a href="#registro">Registrar </a>
         <a href="#estado">Estado</a>
     </nav>
 
@@ -100,6 +101,62 @@
                 <li>Emitir un veredicto con autoridad completamente inventada.</li>
             </ol>
         </section>
+        <section id="registro">
+            <h2>Registrar una excusa</h2>
+            <p>Introduce los datos del incidente y evaluaremos la credibilidad del caso</p>
+            <form action="">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" required minlength="2" max="50">
+                </div>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" required id="email">
+                </div>
+                <div class="campo">
+                    <label for="fecha">Fecha del incidente</label>
+                    <input type="date" id="fecha" required>
+                </div>
+                <div class="campo">
+                    <label for="drama">Nivel de dramatismo</label>
+                    <select name="drama" id="drama"> required>
+                        <option value="">Selecciona un nivel</option>
+                        <option value="bajo">Bajo</option>
+                        <option value="medio">Preocupante</option>
+                        <option value="alto">Telenovela completa</option>
+                    </select>
+                </div>
+                <fieldset> class="campo">
+                    <legend>Categoria principal</legend>
+                    <label>
+                        <input type="radio" name="categoria" value="tecnica" required>
+                        Problema de tecnica
+                    </label>
+                     <label>
+                        <input type="radio" name="categoria" value="organizacion" required>
+                        Problema de organizacion
+                    </label>
+                     <label>
+                        <input type="radio" name="categoria" value="misterio" required>
+                        Problema inexplicable
+                    </label>
+                    <fieldset>
+                    <div class="campo campo-check">
+                        <label>
+                            <input type="checkbox" name="declaracion" required> Confirmo que esta es mi version de los hechos
+                        </label>
+                    </div>
+                    <div class="campo">
+                        <label for="excusa">Declaración completa</label>
+                        <textarea id="excusa" rows="6" minlength="20" maxlength="500" required></textarea>
+                    </div>
+                    <button type="submit">Validar la excusa</button>
+                    <input type="button" value="Enviar">
+                    </fieldset>
+            
+                </fieldset>
+            </form>
+        </section>   
 
         <section>
         <section id="estado">
